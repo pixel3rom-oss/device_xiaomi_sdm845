@@ -77,3 +77,7 @@ PRODUCT_PACKAGES += \
 
 # Inherit from common sdm845 device config
 $(call inherit-product, device/xiaomi/sdm845/device-common.mk)
+
+# Device fstab
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/fstab.qcom:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.qcom
