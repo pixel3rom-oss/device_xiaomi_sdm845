@@ -21,6 +21,9 @@ TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
 # Camera
 TARGET_FACE_UNLOCK_CAMERA_ID := 5
 
+# HIDL
+DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
+
 # Power
 TARGET_TAP_TO_WAKE_NODE := "/dev/input/event3"
 
