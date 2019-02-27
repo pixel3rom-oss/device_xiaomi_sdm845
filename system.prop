@@ -39,7 +39,7 @@ ro.sf.lcd_density=420
 
 # Media
 audio.offload.video=true
-media.settings.xml=/system/etc/media_profiles_vendor.xml
+media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 
 # Memory optimizations
 ro.vendor.qti.sys.fw.bservice_enable=true
