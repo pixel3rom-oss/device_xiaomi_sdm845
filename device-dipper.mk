@@ -17,6 +17,7 @@
 #
 
 LOCAL_PATH := device/xiaomi/sdm845/dipper
+COMMON_PATH := device/xiaomi/sdm845
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
@@ -33,6 +34,11 @@ PRODUCT_COPY_FILES += \
 TARGET_SYSTEM_PROP := \
     $(LOCAL_PATH)/../system.prop \
     $(LOCAL_PATH)/system.prop
+
+# Init
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/init.brcm.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.brcm.rc \
+    $(LOCAL_PATH)/init.remosaic.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.remosaic.rc
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
