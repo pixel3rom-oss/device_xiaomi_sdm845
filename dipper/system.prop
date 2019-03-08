@@ -8,3 +8,9 @@ persist.camera.sat.fallback.lux.d=20
 ro.displayfeature.histogram.enable=true
 ro.eyecare.brightness.threshold=3
 ro.eyecare.brightness.level=8
+
+# GPS
+ro.hardware.gps=brcm
+
+# NFC
+ro.hardware.nfc_nci=nqx.default
