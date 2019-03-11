@@ -24,8 +24,5 @@ TARGET_FACE_UNLOCK_CAMERA_ID := 5
 # Power
 TARGET_TAP_TO_WAKE_NODE := "/dev/input/event3"
 
-# SEPolicy
-BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
-
 include device/xiaomi/sdm845/BoardConfig-common.mk
 -include vendor/xiaomi/dipper/BoardConfigVendor.mk
