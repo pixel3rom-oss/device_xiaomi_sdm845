@@ -18,6 +18,11 @@
 
 LOCAL_PATH := device/xiaomi/sdm845
 
+PRODUCT_SOONG_NAMESPACES += \
+    hardware/qcom/audio-caf/sdm845 \
+    hardware/qcom/display-caf/sdm845 \
+    hardware/qcom/media-caf/sdm845
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
