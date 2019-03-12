@@ -21,6 +21,9 @@ TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
 # Camera
 TARGET_FACE_UNLOCK_CAMERA_ID := 5
 
+# Kernel
+TARGET_KERNEL_CONFIG := dipper_defconfig
+
 # HIDL
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
 
