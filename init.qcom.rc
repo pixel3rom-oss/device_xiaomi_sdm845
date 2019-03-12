@@ -55,7 +55,6 @@ on init
     chmod 0660 /sys/fs/cgroup/memory/bg/tasks
 
     mount none /sbin/chargeonlymode /sbin/charger bind
-    mount none /system/etc/audio_policy_configuration.xml /vendor/etc/audio/audio_policy_configuration.xml bind
 
     # Boot time FS tune
     write /sys/block/sda/queue/iostats 0
