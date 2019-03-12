@@ -107,9 +107,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/init.class_late.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.class_late.sh \
     $(LOCAL_PATH)/init.class_main.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.class_main.sh \
-    $(LOCAL_PATH)/init.leds.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.leds.sh \
+    $(LOCAL_PATH)/init.leds.sh:$(TARGET_COPY_OUT_VENDOR)/etc/init.leds.sh \
     $(LOCAL_PATH)/init.msm.usb.configfs.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.msm.usb.configfs.rc \
-    $(LOCAL_PATH)/init.panel_info.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.panel_info.sh \
+    $(LOCAL_PATH)/init.panel_info.sh:$(TARGET_COPY_OUT_VENDOR)/etc/init.panel_info.sh \
     $(LOCAL_PATH)/init.qcom.early_boot.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qcom.early_boot.sh \
     $(LOCAL_PATH)/init.qcom.post_boot.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qcom.post_boot.sh \
     $(LOCAL_PATH)/init.qcom.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qcom.rc \
@@ -118,7 +118,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/init.qcom.usb.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qcom.usb.rc \
     $(LOCAL_PATH)/init.qcom.usb.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qcom.usb.sh \
     $(LOCAL_PATH)/init.qti.qseecomd.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qti.qseecomd.sh \
-    $(LOCAL_PATH)/init.recovery.qcom.rc:$(TARGET_ROOT_OUT)/init.recovery.qcom.rc \
+    $(LOCAL_PATH)/init.recovery.qcom.rc:$(PRODUCT_OUT)/root/init.recovery.qcom.rc \
     $(LOCAL_PATH)/init.target.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.target.rc \
     $(LOCAL_PATH)/ueventd.qcom.rc:$(TARGET_COPY_OUT_VENDOR)/ueventd.rc
 
